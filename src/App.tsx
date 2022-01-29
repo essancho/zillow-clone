@@ -1,11 +1,12 @@
 import React from 'react';
 
 import './App.css';
+import RoutesComponent from './core/Routes/routes';
 
 interface AppProps {}
 
 const App: React.FC<AppProps> = () => {
-  return <div className="App">Let's go 11</div>;
+  return <RoutesComponent />;
 };
 
 export default App;
